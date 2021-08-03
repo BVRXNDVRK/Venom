@@ -2,6 +2,7 @@
 Venom - промосайт к фильму
 ## Верстал по видеоурокам
 ###  Технологии в проэкте
-- html
-- css
-- js
+- Html
+- Css
+- JavaScript
+- Normalize.css
