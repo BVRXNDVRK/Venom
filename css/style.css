@@ -341,8 +341,11 @@ img {
   }
 
   .venom {
-    top: 28%;
-    width: 40%;
+    /* top: 28%;
+    width: 40%; ANDROID*/
+
+    top: 22%;
+    width: 43%;
   }
 
   .menu-button {
@@ -408,11 +411,18 @@ img {
   .is-open {
     transform: translateX(0%);
   }
+
+  .header {
+    margin-bottom: 7%;
+  }
 }
 
 @media (max-width: 400px) {
   .venom {
+    /* top: 32%;
+    width: 35%; ANDROID*/
     top: 32%;
     width: 35%;
   }
+  
 }
