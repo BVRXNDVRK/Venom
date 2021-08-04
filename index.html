@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,6 +20,12 @@
       </a>
     
       <nav class="nav">
+        <button class="menu-button">
+          <img width="73" height="20" src="img/menu-button.svg" alt="icon: burger-menu" class="menu-button-image">
+        </button>
+        <button class="menu-button-close">
+          <img src="img/menu-button-close.svg" alt="icon: menu-close-button" class="menu-button-close-image">
+        </button>
         <ul class="nav-menu">
           <li class="nav-menu-item">
             <a href="about.html" class="nav-menu-link">о фильме</a>
@@ -39,13 +46,13 @@
       <div class="film-text">
         <span class="film-date">16 сентября 2021</span>
         <img src="img/film-logo.svg" alt="film-logo" class="film-logo">
-        <p class="film-description">В настырном журналисте по-прежнему живет симбиот.<br> Том Харди в образе обаятельного суперзлодея<br> из комиксов Marvel.</p>
+        <p class="film-description">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
       </div>
       <div class="button-group">
-        <button class="button button-primary">
+        <a href="https://www.youtube.com/watch?v=-LkHS8geUjQ&ab_channel=SonyPicturesRU" data-fancybox class="button button-primary">
           <img width="15" height="15" src="img/play.svg" alt="icon: play" class="button-icon">
           <span class="button-text">смотреть трейлер</span>
-        </button>
+        </a>
         <a href="#" class="button button-link">
           <img width="15" height="15" src="img/ticket.svg" alt="icon: ticket" class="button-icon">
           <span class="button-text">билеты на премьеру</span>
@@ -57,5 +64,7 @@
   <img src="img/venom.png" alt="photo: venom" class="venom">
   <img src="img/blood.png" alt="photo: blood" class="blood">
   <img height="830" src="img/background.png" alt="photo: background" class="background">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

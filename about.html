@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,8 +18,13 @@
       <a href="index.html" class="logo-link">
         <img width="46" height="71" src="img/logo.png" alt="logo: venom" class="logo-img">
       </a>
-    
       <nav class="nav">
+        <button class="menu-button">
+          <img width="85" height="30" src="img/menu-button.svg" alt="icon: burger-menu" class="menu-button-image">
+        </button>
+        <button class="menu-button-close">
+          <img src="img/menu-button-close.svg" alt="icon: menu-close-button" class="menu-button-close-image">
+        </button>
         <ul class="nav-menu">
           <li class="nav-menu-item">
             <a href="about.html" class="nav-menu-link">о фильме</a>
@@ -53,9 +59,9 @@
           <li class="list-item">Пегги Лу</li>
         </ul>
         <div class="trailer">
-          <button class="play">
+          <a href="https://www.youtube.com/watch?v=-LkHS8geUjQ&ab_channel=SonyPicturesRU" data-fancybox class="play">
             <img src="img/play.svg" alt="icon: play" class="play-icon">
-          </button>
+          </a>
         </div>
       </div>
       <div class="col">
@@ -83,5 +89,7 @@
     </div>
   </div>
   <img height="830" src="img/background.png" alt="photo: background" class="background">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
