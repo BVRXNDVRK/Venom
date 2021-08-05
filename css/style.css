@@ -188,7 +188,7 @@ body {
 .content .trailer {
   width: 356px;
   height: 205px;
-  background: url('../img/trailer-cover.jpg') no-repeat center / contain;
+  background: url("../img/trailer-cover.jpg") no-repeat center / contain;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -268,7 +268,7 @@ img {
   }
 
   .film {
-    margin-top: 20%; 
+    margin-top: 20%;
   }
 
   .trailer {
@@ -346,6 +346,8 @@ img {
 
     top: 22%;
     width: 43%;
+    transition: transform 2s;
+    transform: translateX(1001%);
   }
 
   .menu-button {
@@ -415,6 +417,46 @@ img {
   .header {
     margin-bottom: 7%;
   }
+
+  .venom-animation {
+    transition: transform 2s;
+    transform: translateX(1001%);
+  }
+
+  .logo-img-animaion {
+    transition: transform 1.5s;
+    transform: translateX(-501%);
+  }
+
+  .menu-button-animation {
+    transition: transform 1.5s;
+    transform: translateX(501%);
+  }
+
+  .film-date-animation {
+    transition: transform 0.8s;
+    transform: translateX(201%);
+  }
+
+  .film-logo-animation {
+    transition: transform 0.8s;
+    transform: translateX(-201%);
+  }
+
+  .film-description-animation {
+    transition: transform 0.8s;
+    transform: translateX(201%);
+  }
+
+  .button-group-animation {
+    transition: transform 1.5s;
+    transform: translateY(501%);
+  }
+
+  .load {
+    transform: translateX(0%);
+    transform: translateY(0%);
+  }
 }
 
 @media (max-width: 400px) {
@@ -424,5 +466,4 @@ img {
     top: 32%;
     width: 35%;
   }
-  
 }
