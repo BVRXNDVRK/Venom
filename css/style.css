@@ -326,7 +326,7 @@ img {
   }
 
   .film {
-    margin-top: 20%;
+    margin-top: 26%;
   }
 
   .nav-menu-item {
@@ -348,7 +348,7 @@ img {
     /* top: 28%;
     width: 40%; ANDROID*/
 
-    top: 23%;
+    top: 28%;
     width: 43%;
     transition: transform 2s;
     transform: translateX(1001%);
@@ -371,7 +371,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 26%;
   }
 
   .film-text {
@@ -462,6 +462,7 @@ img {
     transform: translateX(0%);
     transform: translateY(0%);
   }
+
 }
 
 @media (max-width: 400px) {
