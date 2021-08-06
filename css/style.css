@@ -352,6 +352,7 @@ img {
     width: 40%;
     transition: transform 2s;
     transform: translateX(1001%);
+    /* display: none; */
   }
 
   .menu-button {
@@ -469,7 +470,7 @@ img {
   .venom {
     /* top: 32%;
     width: 35%; ANDROID*/
-    top: 32%;
+    top: 19%;
     width: 35%;
   }
 }
